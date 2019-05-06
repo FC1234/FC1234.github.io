@@ -1,0 +1,36 @@
+body {
+    background-color: deepskyblue;
+    margin-top: 150px;
+    font-family: Georgia;
+}
+#login{
+    background-color: aliceblue;
+    border: 3px;
+    padding: 20px 20px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    width:800px;
+
+}
+input[type=text],input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+h1{
+    border: 3px;
+    padding: 30px 30px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    width: 56%;
+}
+input[type=button]:hover{
+    color: cadetblue;
+}
